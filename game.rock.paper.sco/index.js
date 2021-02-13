@@ -5,7 +5,7 @@ $(document).ready(function () {
   var botScore = 0;
 
   $("button").click(function () {
-    //set the user choice based on the 
+    //set the user choice based on the button
     var userChoice = $(this).attr("id");
 
     //adds some color changing so people can see what they chose
